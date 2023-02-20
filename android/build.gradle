@@ -43,10 +43,9 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
     }
-}
-
-dependencies {
-    implementation 'com.github.HBiSoft:HBRecorder:2.0.5'
+    dependencies {
+        implementation 'com.github.HBiSoft:HBRecorder:2.0.5'
+    }
 }
